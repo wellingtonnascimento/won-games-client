@@ -10,7 +10,7 @@ export type BannerProps = {
 }
 
 const Banner = ({
-  img,
+  img = 'https://source.unsplash.com/user/willianjusten/1042x580',
   title,
   subtitle,
   buttonLabel,
